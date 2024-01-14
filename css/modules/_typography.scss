@@ -1,0 +1,17 @@
+h1, 
+h2,
+h3 
+{
+    font-family: $header-font;
+}
+
+h4,
+p, 
+button {
+    font-family: $body-font;
+    font-size: $body-font-size;
+}
+a {
+    font-family: $body-font;
+    font-size: $navbar-font-size;
+}

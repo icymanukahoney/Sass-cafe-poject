@@ -1,0 +1,688 @@
+//---pages---
+
+// Homepage
+
+/* ----------responsive media query/break points--------- */
+
+/* tablet or large mobile */
+@media only screen and (min-width: 480px) {
+   
+    /* nav */
+    
+
+
+
+// hero
+
+
+#hero-section {
+    
+   background-color: $white;
+   text-align: center;
+   width: 100%;
+   
+   img {
+    
+       align-items: center;
+       width: 100%;
+       padding-bottom: $large-spacing;
+   }
+
+h1 {
+   font-size: $mobile-header-font-size;
+   padding-bottom: $med-spacing;
+   padding-top: $med-spacing;
+}
+
+.order-button-home {
+display: inline-block;
+background-color: $golden;
+padding: $med-spacing;
+border-radius: $med-border-radius;
+color: $white;
+padding: $button-padding;
+text-decoration: none;
+font-size: $button-font-size;
+margin-bottom: 50px;
+}
+}
+
+.container {
+    margin-bottom: $large-spacing;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: $small-spacing;
+    font-size: $subheader-font-size;
+   padding-bottom: $small-spacing;
+   padding-top: $large-spacing;
+
+}
+
+#drink-grid {
+    .item {
+        text-align: center;
+        padding: 0;
+        margin-bottom: $small-spacing;
+
+        h3 {
+            padding: $small-spacing;
+            font-size: $body-font-size;
+        }
+        p {
+            padding: $small-spacing;
+            font-size: $body-font-size;
+        }
+        
+
+        img {
+            width: 50%;
+        }
+    }
+}
+
+#drink-food-button-menu {
+
+    background-color: $white;
+   text-align: center;
+   width: 100%;
+.coctail-food-button-look-menu {
+    display: inline-block;
+    background-color: $golden;
+    padding: $med-spacing;
+    border-radius: $med-border-radius;
+    color: $white;
+    padding: $button-padding;
+    text-decoration: none;
+    font-size: $button-font-size;
+    margin-bottom: $large-spacing;
+    margin-top: $large-spacing;
+    }
+}
+
+#promotion-section-home {
+   background-color: $white;
+   text-align: center;
+   width: 100%;
+   margin-bottom: 155px;
+   margin-top: $x-large-spacing;
+
+
+#promotion-section {
+   padding-top: $large-spacing;
+   text-align: center;
+   h2 {
+    padding: $small-spacing;
+    font-size: $subheader-font-size;
+    }
+   
+   
+   img {
+    
+    align-items: center;
+    width: 100%;
+       }
+}
+}
+
+
+// Start Order Page
+
+
+// hero
+
+#Start-order-hero-section {
+
+    background-color: $white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: $x-large-spacing;
+    margin-bottom: $x-large-spacing;
+
+
+    h2 {
+        text-align: center;
+        margin-bottom: $small-spacing;
+        font-size: $subheader-font-size;
+       padding-top: $xx-large-spacing;
+    }
+
+    .order-drink-button {
+        display: inline-block;
+        background-color: $golden;
+        border-radius: $med-border-radius;
+        color: $white;
+        padding: $button-padding;
+        text-decoration: none;
+        font-size: $button-font-size;
+        margin-bottom: $small-spacing;
+        }
+
+        .order-food-button {
+            display: inline-block;
+            background-color: $golden;
+            border-radius: $med-border-radius;
+            color: $white;
+            padding: $button-padding;
+            text-decoration: none;
+            font-size: $button-font-size;
+            margin-bottom: $xxx-large-spacing;
+        }
+}
+
+
+// Add Drink Page
+
+#drink-menu {
+
+#drink-menu-column {
+    float: left;
+    padding: 5px;
+    padding-left: $med-spacing;
+    margin-bottom: $xxx-large-spacing;
+
+    h4 {
+        padding: $small-spacing;
+            font-size: $body-font-size;
+            margin-left: 50px;
+        }
+        p {
+            padding: $small-spacing;
+            font-size: $body-font-size, solid;
+            margin-left: 50px;
+        }
+
+        h3 {
+            padding: $small-spacing;
+                font-size:  $navbar-font-size;
+                margin-left: 50px;
+            }
+    
+  }
+  
+  #add-drink-button-column {
+    float: right;
+    padding: 5px;
+   padding-left: 68px;
+   margin-bottom: $xxx-large-spacing;
+   
+
+    .button-add-drink {
+            display: inline-block;
+            background-color: $golden;
+            border-radius: $med-border-radius;
+            color: $white;
+            padding: $button-padding;
+            text-decoration: none;
+            font-size: $button-font-size;
+            margin-bottom: 100px;
+            margin-right: 50px;
+            margin-top: $med-spacing;
+    }
+  }
+
+  .left, .right {
+    width: 50%;
+  }
+
+ /* Clear floats after the columns */
+#drink-menu:after {
+content: "";
+display: table;
+clear: both;
+}
+
+}
+
+
+
+// Look MENU page
+
+#hero-section-menu {
+    padding-top: $x-large-spacing;
+}
+
+#food-section {
+   background-color: $white;
+   text-align: center;
+   width: 100%;
+   margin-bottom: $xxx-large-spacing;
+
+   h2 {
+    padding-top: $x-large-spacing;
+   }
+
+   h3 {
+    padding: $small-spacing;
+    font-size: $mobile-subheader-font-size;
+    color: $golden;
+    }
+    h4 {
+        padding: $small-spacing;
+        font-size: $body-font-size;
+        color: $black;
+        }
+}
+
+// Offers-page
+
+#promotion-section {
+    padding-top: $x-large-spacing;
+    text-align: center;
+    h2 {
+     padding: $small-spacing;
+     font-size: $subheader-font-size;
+     }
+    
+    img {
+     
+     align-items: center;
+     width: 100%;
+        }
+ }
+
+#masterclass-section {
+   background-color: $white;
+   text-align: center;
+   width: 100%;
+   margin-bottom: $xxx-large-spacing;
+   margin-top: $large-spacing;
+
+   p {
+    font-size: $body-font-size;
+   }
+   
+   .book-masterclass-button {
+        display: inline-block;
+        background-color: $golden;
+        padding: $med-spacing;
+        border-radius: $med-border-radius;
+        color: $white;
+        padding: $button-padding;
+        text-decoration: none;
+        font-size: $button-font-size;
+        margin-bottom: $large-spacing;
+        margin-top: $large-spacing;
+        }
+   
+}
+
+// Our Story Page
+
+#hero-section-story-page {
+   background-color: $white;
+   text-align: center;
+   width: 100%;
+   margin-top: $large-spacing;
+   
+   img {
+    
+       align-items: center;
+       width: 100%;
+       padding-bottom: $large-spacing;
+   }
+}
+
+#our-story-page-content {
+    background-color: $white;
+    text-align: center;
+    width: 100%;
+    margin-bottom: $xxx-large-spacing;
+    margin-top: $large-spacing;
+    h3 {
+     padding: $large-spacing;
+     font-size: $mobile-subheader-font-size;
+    }
+    p {
+        font-size: $body-font-size;
+        
+}
+}
+
+
+
+// Add FOOD Page
+
+#Add-food-page-content {
+    margin-bottom: 200px;
+    h2 {
+        font-size: $mobile-subheader-font-size;
+    }
+ h4 {
+    padding: $small-spacing;
+            font-size: $body-font-size;
+            margin-left: $large-spacing;
+ }
+h3 {
+    padding: $small-spacing;
+            font-size: $body-font-size;
+            margin-left: $large-spacing;
+            color: $black;
+}
+p {
+    margin-left: $large-spacing;
+}
+}
+
+
+#food-menu {
+    display: flex;
+
+#food-menu-column1 {
+    flex: 70% 30%;
+    float: left;
+    margin-bottom: $med-spacing;
+    margin-bottom: 20px;
+
+    h4 {
+            font-size: $body-font-size;
+            color:  $red;
+
+        }
+        p {
+            font-size: $body-font-size;
+            padding-left: $small-spacing;
+        }
+
+        em {
+            font-size:  $body-font-size;
+            }
+  }
+
+  #food-menu-column1{
+   float: right;
+   padding-right: 110px;
+   margin-bottom: $med-spacing;
+   
+
+    .button-add-food {
+            display: inline-block;
+            background-color: $golden;
+            border-radius: $med-border-radius;
+            color: $white;
+            padding: $button-food-menu-padding;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 95px;
+            margin-right: 20px;
+            margin-top: 20px;
+            
+    }
+  }
+
+  .left, .right {
+    width: 70% 30%;
+  }
+
+ /* Clear floats after the columns */
+#food-menu:after {
+content: "";
+display: table;
+clear: both;
+}
+}
+
+#small-plates-section {
+    h4 {
+        background-color: $white;
+        text-align: left;
+        width: 100%;
+    }
+}
+
+#food-menu2 {
+    display: flex;
+
+#food-menu-column2 {
+    flex: 70% 30%;
+    float: left;
+    margin-bottom: $med-spacing;
+
+    h4 {
+            font-size: $body-font-size;
+            padding-top: 5px;
+            padding-bottom: 25px;
+
+            
+        }
+        p {
+            font-size: $body-font-size;
+            padding-left: $small-spacing;
+        }
+
+        em {
+            font-size:  $body-font-size;
+            color: $golden;
+            }
+  }
+
+  #food-menu-column2{
+   float: right;
+   padding-right: 70px;
+   margin-bottom: $med-spacing;
+   
+
+    .button-add-food2 {
+            display: inline-block;
+            background-color: $golden;
+            border-radius: $med-border-radius;
+            color: $white;
+            padding: $button-food-menu-padding;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 50px;
+            margin-right: 20px;
+            
+            
+    }
+  }
+
+  .left, .right {
+    width: 70% 30%;
+  }
+
+ /* Clear floats after the columns */
+#food-menu2:after {
+content: "";
+display: table;
+clear: both;
+}
+}
+
+#SOMETHING-LARGER-section {
+    h4 {
+        background-color: $white;
+        text-align: left;
+        width: 100%;
+    }
+}
+
+#food-menu3 {
+    display: flex;
+
+#food-menu-column3 {
+    flex: 70% 30%;
+    float: left;
+    margin-bottom: $med-spacing;
+
+    h4 {
+            font-size: $body-font-size;
+           
+        }
+        p {
+            font-size: $body-font-size;
+            padding-left: $small-spacing;
+        }
+
+        em {
+            font-size:  $body-font-size;
+            color: $golden;
+            }
+  }
+
+  #food-menu-column3{
+   float: right;
+   padding-right: 50px;
+   margin-bottom: $med-spacing;
+   
+
+    .button-add-food3 {
+            display: inline-block;
+            background-color: $golden;
+            border-radius: $med-border-radius;
+            color: $white;
+            padding: $button-food-menu-padding;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 95px;
+            margin-right: 20px;
+            margin-top: 20px;
+            
+    }
+  }
+
+  .left, .right {
+    width: 70% 30%;
+  }
+
+ /* Clear floats after the columns */
+#food-menu3:after {
+content: "";
+display: table;
+clear: both;
+}
+}  
+    
+#Burgers-section
+{
+    h4 {
+        background-color: $white;
+        text-align: left;
+        width: 100%;
+    }
+}
+
+#food-menu4 {
+    display: flex;
+
+#food-menu-column4 {
+    flex: 70% 30%;
+    float: left;
+    margin-bottom: $med-spacing;
+
+    h4 {
+            font-size: $body-font-size;
+           
+        }
+        p {
+            font-size: $body-font-size;
+            padding-left: $small-spacing;
+        }
+
+        em {
+            font-size:  $body-font-size;
+            padding-left: 50px;
+            color: $golden;
+            }
+  }
+
+  #food-menu-column4{
+   float: right;
+   padding-right: 15px;
+   margin-bottom: $med-spacing;
+   
+
+    .button-add-food4 {
+            display: inline-block;
+            background-color: $golden;
+            border-radius: $med-border-radius;
+            color: $white;
+            padding: $button-food-menu-padding;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 55px;
+            margin-right: 20px;
+            margin-top: 20px;
+            
+    }
+  }
+
+  .left, .right {
+    width: 70% 30%;
+  }
+
+ /* Clear floats after the columns */
+#food-menu4:after {
+content: "";
+display: table;
+clear: both;
+}
+}  
+
+#Dessert-section {
+    h4 {
+        background-color: $white;
+        text-align: left;
+        width: 100%;
+    }
+}
+
+
+#food-menu5 {
+    display: flex;
+
+#food-menu-column5 {
+    flex: 70% 30%;
+    float: left;
+    margin-bottom: $med-spacing;
+
+    h4 {
+            font-size: $body-font-size;
+           
+        }
+        p {
+            font-size: $body-font-size;
+            padding-left: $small-spacing;
+        }
+
+        em {
+            font-size:  $body-font-size;
+            padding-left: 50px;
+            }
+  }
+
+  #food-menu-column5{
+   float: right;
+   padding-right: 200px;
+   margin-bottom: $med-spacing;
+   
+
+    .button-add-food5 {
+            display: inline-block;
+            background-color: $golden;
+            border-radius: $med-border-radius;
+            color: $white;
+            padding: $button-food-menu-padding;
+            text-decoration: none;
+            font-size: 20px;
+            margin-bottom: 25px;
+            margin-right: 20px;
+            margin-top: 20px;
+            
+    }
+  }
+
+  .left, .right {
+    width: 70% 30%;
+  }
+
+ /* Clear floats after the columns */
+#food-menu5:after {
+content: "";
+display: table;
+clear: both;
+}
+}  
+
+}
